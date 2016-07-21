@@ -1,3 +1,3 @@
-service 'httpd' do 
+service 'httpd' do
 	action [:stop, :disable]
 end
