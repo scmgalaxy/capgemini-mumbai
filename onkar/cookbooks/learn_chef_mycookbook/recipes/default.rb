@@ -4,8 +4,18 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
+package 'httpd' 
+
 service 'httpd' do
-action [ :stop, :disable]
+action [ :start, :enable]
+end
+
+template'/var/www/html/index.html' do
+source 'index.html.erb'
+end
+
+service 'iptables' do
+action :stop
 end
 
 file 'index.html' do
@@ -14,3 +24,5 @@ file 'index.html' do
   owner 'trainee'
   group 'trainee'
 end
+
+
