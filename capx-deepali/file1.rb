@@ -1,3 +1,3 @@
 service "apache" do
-  action :stop
+  action [:disable :stop]
   end
