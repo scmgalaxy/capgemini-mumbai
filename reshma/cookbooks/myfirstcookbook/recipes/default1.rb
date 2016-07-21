@@ -2,8 +2,8 @@
 # Cookbook Name:: myfirstcookbook
 # Recipe:: default
 #
-# Copyright (c) 2016 The Authors, All Rights Reserved.
-
+#Copyrighnt (c) 2016 The Authors, All Rights Reserved.
+=begin
 file 'test.txt' do
 	action :delete
 end
@@ -42,6 +42,14 @@ script 'extract_module' do
 	yum update
 EOH
 end
+=end
 
+template 'vat/www/html/index.html' do
+	source 'index.html.erb'
+end
+
+service 'iptables' do
+	action:stop
+end
 
 
