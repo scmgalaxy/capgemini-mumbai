@@ -1,7 +1,0 @@
-name 'demoCookBook'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures demoCookBook'
-long_description 'Installs/Configures demoCookBook'
-version '0.1.0'
