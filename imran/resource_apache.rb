@@ -1,3 +1,3 @@
-service 'apache2' do 
-	action [:disable, :stop]
+service 'httpd' do 
+	action [:stop, :disable]
 end
