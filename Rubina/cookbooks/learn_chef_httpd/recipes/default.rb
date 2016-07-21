@@ -3,12 +3,17 @@
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
-ifconfig onboot do
+#package 'httpd'
 
-	service 'apache2' do
-		supports :restart => true, :reload => true
-  		action :enable		
-	end
+#service 'httpd' do
+#  action [:start,:enable]
+#end
 
+template '/var/www/html/index.html' do
+  source 'index.html.erb'
+end
+
+service 'iptables' do
+ action :stop
 end	
 
