@@ -4,9 +4,18 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-service "httpd" do
+#package 'httpd'
 
-action [:stop,:disable]
+#service 'httpd' do
+#action [:start,:enable]
+#end
 
+#template'var/www/html/index.html' do
+#source 'index.html.erb'
+#end
+
+service 'iptables' do
+action :stop
 end
+
 
