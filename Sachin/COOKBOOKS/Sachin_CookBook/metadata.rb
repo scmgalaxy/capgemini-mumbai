@@ -1,7 +1,0 @@
-name 'Sachin_CookBook'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures Sachin_CookBook'
-long_description 'Installs/Configures Sachin_CookBook'
-version '0.1.0'
