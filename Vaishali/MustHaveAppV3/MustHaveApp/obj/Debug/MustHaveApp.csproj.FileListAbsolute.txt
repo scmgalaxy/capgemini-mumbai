@@ -1,0 +1,12 @@
+D:\AWSDemoApp\MustHaveApp\MustHaveApp\bin\MustHaveApp.dll
+D:\AWSDemoApp\MustHaveApp\MustHaveApp\bin\MustHaveApp.pdb
+D:\AWSDemoApp\MustHaveApp\MustHaveApp\obj\Debug\MustHaveApp.dll
+D:\AWSDemoApp\MustHaveApp\MustHaveApp\obj\Debug\MustHaveApp.pdb
+D:\MustHaveApp\MustHaveApp\bin\MustHaveApp.dll
+D:\MustHaveApp\MustHaveApp\bin\MustHaveApp.pdb
+D:\MustHaveApp\MustHaveApp\obj\Debug\ResolveAssemblyReference.cache
+D:\MustHaveApp\MustHaveApp\obj\Debug\MustHaveApp.dll
+D:\MustHaveApp\MustHaveApp\obj\Debug\MustHaveApp.pdb
+D:\MustHaveApp\MustHaveApp\bin\Newtonsoft.Json.pdb
+D:\MustHaveApp\MustHaveApp\bin\Newtonsoft.Json.xml
+D:\MustHaveApp\MustHaveApp\bin\Newtonsoft.Json.dll
